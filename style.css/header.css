@@ -122,7 +122,7 @@
 
 @media screen and (max-width: 1036px) {
     .header {
-      padding: 0 10px;
+      padding: 0 20px;
     }
     .header__logo {
         margin-right: 0px;
@@ -132,7 +132,7 @@
 }
 @media screen and (max-width: 826px) {
     .header {
-      padding: 0 10px;
+      padding: 0 20px;
     }
    
 }
