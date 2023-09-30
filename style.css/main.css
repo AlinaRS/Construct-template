@@ -2,8 +2,14 @@
 /* Секция intro */
 
 .intro {
+min-height: 720px;
+width: auto;
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
 
 }
+
 .intro__wrapper {
     padding: 197px 0;
 }
@@ -30,5 +36,59 @@ margin-bottom: 37px;
 .intro__actions .btn_main {
     margin-right: 20px;
 }
+
+
+@media screen and (max-width: 1250px) {
+    .intro {
+      padding: 0 20px;
+      min-height: 720px;
+    }
+}
+
+
+
+@media screen and (max-width: 537px) {
+    .intro {
+        padding: 0 10px;
+      }
+      .intro__title {
+        font-size: 50px;
+      }
+}
+
+@media screen and (max-width: 478px) {
+    .intro {
+        padding: 0 20px;
+      }
+      .intro__wrapper {
+        padding: 100px 0;
+    
+    }
+    .intro__block {
+        max-width: 571px;
+        text-align: center;
+    }
+
+      .intro__actions {
+        flex-direction: column;
+      }
+
+      .intro__actions .btn_main {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+ 
+   
+}
+
+@media screen and (max-width: 398px) {
+    .intro__title {
+        font-size: 45px;
+      }
+ 
+   
+}
+
 
 
