@@ -1,0 +1,34 @@
+
+/* Секция intro */
+
+.intro {
+
+}
+.intro__wrapper {
+    padding: 197px 0;
+}
+
+.intro__block {
+    max-width: 571px;
+}
+
+.intro__title {
+    margin-bottom: 12px;
+}
+
+.intro__text {
+color: #DFDFDF;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 37px;
+}
+
+.intro__actions {
+  display: flex;
+}
+
+.intro__actions .btn_main {
+    margin-right: 20px;
+}
+
+
