@@ -1,7 +1,7 @@
 /* section intro */
 
 .intro {
-  position: relative;
+  padding: 197px 0;
   min-height: 720px;
   width: auto;
   background-repeat: no-repeat;
@@ -10,20 +10,7 @@
   padding-bottom: 96px;
 }
 
-.intro:after {
-  width: 100%;
-  height: 100%;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(2, 2, 4, 0.55);
-}
-
 .intro__wrapper {
-  padding: 197px 0;
-  position: relative;
-  z-index: 2;
 }
 
 .intro__block {
@@ -103,6 +90,7 @@
 /* section "banner" */
 
 .banner {
+  padding-top: 97px;
   padding-bottom: 83px;
 
 }
